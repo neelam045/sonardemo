@@ -6,10 +6,13 @@ package com.sonar.sample;
  */
 public class App 
 {
-        int firstnum;
-        int secondnum;
+        int firstnum,secondnum;
         
         int adder (int firstnum,int secondnum) {
+                if(firstnum!=0)
+                        System.out.print("hello");
+                else 
+                        System.out.print("bye");
         	return firstnum + secondnum;
         }
 }
