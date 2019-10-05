@@ -6,7 +6,7 @@ package com.sonar.sample;
  */
 public class App 
 {
-        int firstnum,secondnum;
+       // int firstnum,secondnum;
         
         int adder (int firstnum,int secondnum) {
                 if(firstnum!=0)
